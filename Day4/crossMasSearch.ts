@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-import { forEachChild } from 'typescript';
 const os = require('os');
 const data = fs.readFileSync('data.txt','utf8');
 
